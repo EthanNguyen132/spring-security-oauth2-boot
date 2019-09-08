@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	
+	<root level="INFO"></root>
+	<logger name="org.springframework" level="INFO" />
+	<logger name="org.hibernate" level="INFO"></logger>
+	<logger name="org.hibernate.type" level="INFO"></logger>
+
+</configuration>
